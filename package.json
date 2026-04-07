@@ -1,0 +1,14 @@
+{
+  "name": "api-vivaz",
+  "version": "1.0.0",
+  "description": "API simples com JSON",
+  "main": "script/index.js",
+  "scripts": {
+    "start": "node /script/index.js"
+  },
+  "author": "vivaz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
