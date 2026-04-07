@@ -4,7 +4,7 @@
   "description": "API simples com JSON",
   "main": "script/index.js",
   "scripts": {
-    "start": "node /script/index.js"
+    "start": "node script/index.js"
   },
   "author": "vivaz",
   "license": "ISC",
