@@ -2,9 +2,9 @@
   "name": "api-vivaz",
   "version": "1.0.0",
   "description": "API simples com JSON",
-  "main": "script/index.js",
+  "main": "server/index.js",
   "scripts": {
-    "start": "node script/index.js"
+    "start": "node server/index.js"
   },
   "author": "vivaz",
   "license": "ISC",
