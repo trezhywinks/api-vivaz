@@ -2,6 +2,7 @@
 
 const express = require("express");
 const app = express();
+const PORT = process.env.PORT || 3000;
 
 app.get("/pack_pack_pack_vivo.json", (req, res) => {
 
@@ -15,6 +16,8 @@ app.get("/pack_pack_pack_vivo.json", (req, res) => {
   });
 });
 
-app.listen(3000, () => {
-  console.log("Servidor rodando");
+//const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+  console.log("server running in " + PORT);
 });
